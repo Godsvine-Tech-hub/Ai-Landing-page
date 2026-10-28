@@ -1,0 +1,5 @@
+# Plain static site (HTML/CSS/JS) — no build step required.
+# These settings override the dashboard build settings.
+[build]
+  publish = "."
+  command = "echo 'Static site: no build step required'"
